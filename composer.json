@@ -1,0 +1,23 @@
+{
+    "name": "agilesdesign/myrtle-docks-composer-plugins",
+    "description": "Composer Plugins for Myrtle WMS Docks",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justin Seliga",
+            "email": "jseliga@agilesdesign.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Myrtle\\Composer\\Docks\\": "src/"
+        }
+    },
+    "extra":{
+        "class":"Myrtle\\Composer\\Docks\\Plugins\\DocksInstaller"
+    }
+}
